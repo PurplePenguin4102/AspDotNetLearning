@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaDomain.Classes", "Ninj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NinjaDomain.DataModel", "NinjaDomain.DataModel\NinjaDomain.DataModel.csproj", "{C9894883-7CCA-41AD-BCA9-1ACF3ACEA41D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{D30FD857-60B3-45F5-A3B0-34E4DB831065}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication1\ConsoleApplication.csproj", "{D30FD857-60B3-45F5-A3B0-34E4DB831065}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
