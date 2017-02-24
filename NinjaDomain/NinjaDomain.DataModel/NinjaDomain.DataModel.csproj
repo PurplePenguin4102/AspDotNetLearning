@@ -57,6 +57,22 @@
     <Compile Include="Migrations\201702230429187_Added DoB.Designer.cs">
       <DependentUpon>201702230429187_Added DoB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702240043144_NullableDateTime.cs" />
+    <Compile Include="Migrations\201702240043144_NullableDateTime.Designer.cs">
+      <DependentUpon>201702240043144_NullableDateTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702240054555_AddingDT2Column.cs" />
+    <Compile Include="Migrations\201702240054555_AddingDT2Column.Designer.cs">
+      <DependentUpon>201702240054555_AddingDT2Column.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702240058296_DroppedOldDT.cs" />
+    <Compile Include="Migrations\201702240058296_DroppedOldDT.Designer.cs">
+      <DependentUpon>201702240058296_DroppedOldDT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702240059254_RenamedDummy.cs" />
+    <Compile Include="Migrations\201702240059254_RenamedDummy.Designer.cs">
+      <DependentUpon>201702240059254_RenamedDummy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="NinjaContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +93,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702230429187_Added DoB.resx">
       <DependentUpon>201702230429187_Added DoB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702240043144_NullableDateTime.resx">
+      <DependentUpon>201702240043144_NullableDateTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702240054555_AddingDT2Column.resx">
+      <DependentUpon>201702240054555_AddingDT2Column.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702240058296_DroppedOldDT.resx">
+      <DependentUpon>201702240058296_DroppedOldDT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702240059254_RenamedDummy.resx">
+      <DependentUpon>201702240059254_RenamedDummy.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
