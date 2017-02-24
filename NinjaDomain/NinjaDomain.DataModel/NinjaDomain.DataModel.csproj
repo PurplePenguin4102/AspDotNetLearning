@@ -73,6 +73,14 @@
     <Compile Include="Migrations\201702240059254_RenamedDummy.Designer.cs">
       <DependentUpon>201702240059254_RenamedDummy.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201702240314348_AddedTrackingInterface.cs" />
+    <Compile Include="Migrations\201702240314348_AddedTrackingInterface.Designer.cs">
+      <DependentUpon>201702240314348_AddedTrackingInterface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201702240317038_IgnoringDirty.cs" />
+    <Compile Include="Migrations\201702240317038_IgnoringDirty.Designer.cs">
+      <DependentUpon>201702240317038_IgnoringDirty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="NinjaContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -105,6 +113,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201702240059254_RenamedDummy.resx">
       <DependentUpon>201702240059254_RenamedDummy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702240314348_AddedTrackingInterface.resx">
+      <DependentUpon>201702240314348_AddedTrackingInterface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201702240317038_IgnoringDirty.resx">
+      <DependentUpon>201702240317038_IgnoringDirty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
